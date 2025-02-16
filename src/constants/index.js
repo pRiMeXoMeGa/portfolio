@@ -229,7 +229,7 @@ const testimonials = [
     name: "Rishendra Mishra",
     designation: "COO",
     company: "OS Esports",
-    image: "https://media.licdn.com/dms/image/C5603AQG1J9J9J9J9J9/profile-displayphoto-shrink_400_400/0/1517476720000?e=1745452800&v=beta&t=8osEdL47b4DEhI2mak3LPdD7fFIKCpzwEWqrO7RohII",
+    image: "https://media.licdn.com/dms/image/v2/D5603AQE3r5f5-xvyXg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1718227382992?e=1745452800&v=beta&t=blsOWSa5JZGdTEgMzDF9VqmRxB06P3mLQ6BytzVnBxg",
   },
   {
     testimonial:
