@@ -49,7 +49,7 @@ const About = () => {
         variants={fadeIn("","",0.1,1)}
         className='mt-4 text-secondary text-[17px] max-w-6xl leading-[30px]'
       >
-        Full Stack professional with 4+ years of experience delivering high-impact work in solving problems. Confident in ability to thrive in a fast-paced setting and leverage skills in Python, flask, fastAPI, Java, React and Angular, to enable team success. Committed to lifelong learning and going the extra mile to contribute continuous improvement. <br/>
+        Full Stack professional with 4+ years of experience delivering high-impact work in solving problems. Confident in ability to thrive in a fast-paced setting and leverage skills in <b className='text-white'>React, Python, flask, fastAPI, Java and Angular</b> to enable team success. Committed to lifelong learning and going the extra mile to contribute continuous improvement. <br/>
         I'm a quick learner and collaborate closely with clients to create efficient, scalable, and user-friendly solutions that solve real-world problems. Let's work together to bring your ideas to life!
       </motion.p>
       <div className='mt-20 flex flex-wrap gap-10 justify-center'>
