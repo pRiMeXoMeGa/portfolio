@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
+import {cool} from "../assets";
 
 const Hero = () => {
   
@@ -52,7 +53,7 @@ const Hero = () => {
       <ComputersCanvas />
       <div className="absolute xs:bottom-10 bottom-20 w-full flex justify-center items-center flex-col">
         <audio id="track" onEnded={endedfunc}>
-          <source src="src/assets/audio/cool.mp3" type="audio/mpeg" />
+          <source src={cool} type="audio/mpeg" />
         </audio>
 
         <div id="player-container" className="mb-3">
