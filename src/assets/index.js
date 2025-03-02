@@ -51,14 +51,18 @@ import angularcert from "./angular.png";
 import researchgate from "./researchgate.png"
 import linkedin from "./linkedin.png";
 import divergentpath from "./divergentpath.png";
+import cv from "./cv.png";
+import Resume from "./MohdAqibR.pdf";
 
 export {
+  Resume,
   logo,
   logoo,
   backend,
   linkedin,
   lti,
   researchgate,
+  cv,
   tcs,
   ai,
   fractal,
