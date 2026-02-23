@@ -169,11 +169,12 @@ const experiences = [
     iconBg: "black",
     date: "June 2024 - Present",
     points: [
-      "Led customer engagements to showcase web solutions, achieving a 20% boost in client satisfaction through tailored demonstrations.",
-      "Collaborated with cross-functional teams to create Proof of Concept (POC) solutions, reducing project timelines by 15% and enhancing delivery speed.",
-      "Communicated technical solutions to stakeholders, translating POC results into actionable strategies that improved decision-making efficiency by 25%.",
-      "Designed a dynamic frontend for the funnel application, enhancing predictive capabilities and increasing forecasting accuracy by 30%.",
-      "Partnered with backend teams to ensure seamless integration, optimizing frontend performance and reducing load times by 40%.",
+      "Client & Solution Delivery: Owned requirement discussions with global enterprise clients, translating business needs into scalable technical architectures and managing successful solution walkthroughs.",
+      "MCP & FastMCP Implementation: Designed and developed custom Model Context Protocol (MCP) tools using FastAPI and Python, enabling secure and standardized LLM integration with internal forecasting databases. (Client: PepsiCo)",
+      "Multi-Agent Orchestration: Architected a multi-agent system for the \"Funnel Automation\" platform, where agents utilize MCP tools to autonomously retrieve data, run statistical analysis, and generate predictions, increasing accuracy by 50%. (Client: Unilever)",
+      "Production RAG Systems: Deployed scalable RAG solutions for decision support, optimizing retrieval using Vector Stores (Pinecone) and PostgreSQL to handle complex enterprise queries.",
+      "React Frontend Architecture: Led the frontend development of high-performance conversational UIs. While primarily architected in React/Redux, ensured component modularity.",
+      "Engineering Leadership: Led a team of 5 engineers, establishing best practices for schema-driven development and API contracts, ensuring seamless communication between Python backend services and frontend clients."
     ],
   },
   {
@@ -183,13 +184,14 @@ const experiences = [
     iconBg: "#383E56",
     date: "July 2022 - June-2024",
     points: [
-      "Engineered an Outlook plugin (App-In) that analyzes insurance-related emails, boosting user productivity by 25% through actionable insights.",
-      "Trained an open-source LLM on mailbox content, enhancing user comprehension by 40% with precise mailcontext summaries.",
-      "Fine-tuned the LLM using legacy data for Insurance BU solutions via Azure OpenAI, achieving a 30% increase in model accuracy.",
-      "Established robust data privacy policies on the CanvasAI platform, ensuring compliance and significantly enhancing user trust in generative AI applications.",
-      "Integrated Azure OpenAI service with Python and Flask, improving compliance by 20% while aligning with client policies.",
-      "Collaborated with the DevOps team to dockerize applications and deploy them on AKS, cutting deployment time by 50%.",
-      "Transformed the India Payroll SSC portal for L&T Group, improving user experience for over 300k users and driving a 30% increase in daily engagement.",
+      'Azure AI & LLM Integration: Designed a "GenAI Playground" leveraging Azure AI Foundry capabilities, integrating 17+ LLMs (including Azure OpenAI, GPT-4, Anthropic Claude and Bedrock) to provide a unified interface for enterprise users.',
+      'Real-Time Streaming & WebSockets: Engineered a low-latency response architecture using WebSockets and Server-Sent Events (SSE), enabling real-time token streaming for a smoother user experience in React applications.',
+      'Azure AI & LLM Integration: Designed a "GenAI Playground" leveraging Azure AI Foundry capabilities, integrating 17+ LLMs (including Azure OpenAI, GPT-4, and Bedrock) to provide a unified interface for enterprise users.',
+      'Reactive Progressive Web App: Implemented Server-Sent Events and streaming response patterns to deliver real-time AI updates to a React/Redux frontend, ensuring a responsive user experience under high load.',
+      'Responsible AI Middleware: Built a proprietary middleware layer that monitors LLM interactions, applying guardrails to filter PII and toxicity checks, and "jailbreak" prevention before requests reach Azure AI endpoints.',
+      'Model Fine-Tuning: Collaborated on fine-tuning workflows within the Azure ecosystem, tailoring models for specific insurance and productivity use cases.',
+      'Scalable Microservices: Developed robust Python microservices to expose GenAI capabilities, handling authentication (OAuth/JWT) and session management for high-concurrency enterprise workloads.',
+      'Collaborated with business, architecture, and delivery teams to move solutions into production faster.  ',
     ],
   },
   {
@@ -210,14 +212,10 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "Feb 2020 - Nov 2020",
     points: [
-      "Involved in the Spring Boot Rest API for the development.",
-      "Designed and developed several Web REST APIs using Spring Boot, MySQL PostgreSQL.",
-      "Implemented Web API Services for CRUD operations.",
-      "Experienced in B2B integration (SOAP, REST, etc.) for seamless business connectivity.",
-      "Good experience with Jenkins for running pipeline to build and test project.",
-      "Involved in agile methodologies using TEST DRIVEN DEVELOPMENT(TDD).",
-      "Extensive experience working under Agile methodologies environment (scrum, Kanban).",
-      "Participating in code reviews and providing constructive feedback to other developers."
+      "Enterprise Integration Development: Supported the development of robust enterprise applications by implementing and managing REST and SOAP integrations to ensure seamless system interoperability.",
+      "Defect Resolution & Quality Control: Collaborated closely with QA teams to identify, troubleshoot, and resolve software defects, ensuring high-quality code delivery.",
+      "Release Stabilization: Played a key role in stabilizing software releases, contributing to smoother deployments and reliable application performance in production environments.",
+      "Process & Documentation Improvement: Took initiative to enhance internal documentation and streamline onboarding processes, improving team efficiency and knowledge transfer.",
     ],
   },
 ];
@@ -229,7 +227,7 @@ const testimonials = [
     name: "Rishendra Mishra",
     designation: "COO",
     company: "OS Esports",
-    image: "https://media.licdn.com/dms/image/C5603AQG1J9J9J9J9J9/profile-displayphoto-shrink_400_400/0/1517476720000?e=1745452800&v=beta&t=8osEdL47b4DEhI2mak3LPdD7fFIKCpzwEWqrO7RohII",
+    image: "https://media.licdn.com/dms/image/v2/D5603AQE3r5f5-xvyXg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1718227382992?e=1745452800&v=beta&t=blsOWSa5JZGdTEgMzDF9VqmRxB06P3mLQ6BytzVnBxg",
   },
   {
     testimonial:
@@ -416,8 +414,8 @@ const achievements = [
       },
     ],
     image: azure,
-    link_img: "",
-    source_code_link: "",
+    link_img: web,
+    source_code_link: "https://mohdaqib.netlify.app/",
   },
   {
     name: "Angular Level-2 Intermediate",
@@ -447,7 +445,7 @@ const achievements = [
     ],
     image: angularcert,
     link_img: angular,
-    source_code_link: "",
+    source_code_link: "https://mohdaqib.netlify.app/",
   },
   
 ];

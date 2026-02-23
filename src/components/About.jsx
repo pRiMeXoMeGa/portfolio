@@ -49,9 +49,21 @@ const About = () => {
         variants={fadeIn("","",0.1,1)}
         className='mt-4 text-secondary text-[17px] max-w-6xl leading-[30px]'
       >
-        Full Stack professional with 4+ years of experience delivering high-impact work in solving problems. Confident in ability to thrive in a fast-paced setting and leverage skills in Python, flask, fastAPI, Java, React and Angular, to enable team success. Committed to lifelong learning and going the extra mile to contribute continuous improvement. <br/>
-        I'm a quick learner and collaborate closely with clients to create efficient, scalable, and user-friendly solutions that solve real-world problems. Let's work together to bring your ideas to life!
-      </motion.p>
+        Senior Generative AI & Full Stack Engineer: Extensive 5+ years experience designing
+         scalable and high performing Progressive web applications and enterprise AI solutions,
+          leveraging a robust stack including Python, FastAPI, React, and AWS Bedrock.
+        Innovator in Agentic AI & MCP: Architected a multi-agent "Funnel Automation"
+         system and custom Model Context Protocol (MCP) tools for major clients
+          like PepsiCo and Unilever, achieving a 50% increase in prediction accuracy through 
+          autonomous data retrieval and statistical analysis.
+        LLM Platform Architect: Designed and built a "GenAI Playground" supporting integration with
+         17+ LLMs (including OpenAI and Anthropic), incorporating a proprietary Responsible
+          AI layer for PII filtration, toxicity checks, and enterprise-grade security.
+        Technical Leadership: Led a team of 5 engineers to deliver high-performance React
+         conversational UI frontend and python microservices backend, establishing best practices for
+          schema-driven development and API contracts between backends and frontends
+
+        </motion.p>
       <div className='mt-20 flex flex-wrap gap-10 justify-center'>
         {services.map((service,index)=>(
           <ServiceCard key={service.title} index={index} {...service}/>

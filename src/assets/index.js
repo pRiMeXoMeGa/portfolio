@@ -8,6 +8,7 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
+import cool from "./audio/cool.mp3";
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
@@ -50,14 +51,18 @@ import angularcert from "./angular.png";
 import researchgate from "./researchgate.png"
 import linkedin from "./linkedin.png";
 import divergentpath from "./divergentpath.png";
+import cv from "./cv.png";
+import Resume from "./MohdAqibR.pdf";
 
 export {
+  Resume,
   logo,
   logoo,
   backend,
   linkedin,
   lti,
   researchgate,
+  cv,
   tcs,
   ai,
   fractal,
@@ -100,4 +105,5 @@ export {
   jobit,
   tripguide,
   divergentpath,
+  cool,
 };
